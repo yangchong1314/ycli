@@ -1,0 +1,34 @@
+{
+    "name": "ycocli",
+    "version": "1.0.1",
+    "description": "vue脚手架工具yc",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "yangchong",
+        "email": "736085239@qq.com"
+    },
+    "license": "ISC",
+    "bin": {
+        "ycocli": "index.js"
+    },
+    "keywords": [
+        "ycocli",
+        "vue脚手架",
+        "yangchong"
+    ],
+    "dependencies": {
+        "axios": "^0.25.0",
+        "chalk": "^2.4.2",
+        "commander": "^9.0.0",
+        "download-git-repo": "^3.0.2",
+        "ejs": "^3.1.6",
+        "figlet": "^1.5.2",
+        "fs-extra": "^10.0.0",
+        "inquirer": "^3.3.0",
+        "log-symbols": "^2.2.0",
+        "ora": "^5.4.1"
+    }
+}
